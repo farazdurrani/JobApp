@@ -1,0 +1,210 @@
+body{
+	float: left;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	font-family: calibri, arial, sans-serif;
+}
+
+header{
+	float: left;
+	width: 96%;
+	height: 75px;
+	padding: 20px 2%;
+	border-bottom: 2px solid black;
+	background: #f7f7f7;
+	z-index: 5;
+	color: #2c3e50;
+}
+
+header .left{
+	font-size: 36px;
+}
+
+header .right{
+	font-size: 18px;
+}
+
+header .small{
+	color: #f1c40f;
+}
+
+.left{
+	float: left;
+	width: 40%;
+}
+
+.right{
+	float: right;
+	width: 40%;
+	text-align: right;
+}
+
+.big{
+	font-weight: 900;
+	text-transform: uppercase;
+}
+
+.small{
+	font-weight: 400;
+	text-transform: lowercase;
+}
+
+#container{
+	float: left;
+	width: 100%;
+}
+
+article{
+	float: left;
+	width: 80%;
+	padding: 2% 10% 0 10%;
+	min-width: 490px;
+	height: auto;
+}
+
+h2{
+	float: left;
+	clear: both;
+	width: 50%;
+}
+
+div{
+	float: left;
+	clear: both;
+	width: 100%;
+	
+}
+
+.clear{
+	float: left;
+	width: 100%;
+	clear: both;
+}
+
+footer{
+	float: left;
+	width: 100%;
+	padding: 20px 0;
+	margin-top: 30px;
+	border-top: 5px double black;
+}
+
+.ftrLeft{
+	padding-left: 2%;
+}
+
+.ftrRight{
+	padding-right: 2%;
+}
+
+/*Forms Elements*/
+.row{
+	width: 90%;
+	margin: 5px 5%;
+}
+
+form div:not(.row){
+	display: inline-block;
+	width: auto;
+	clear: none;
+}
+
+input, textarea, select{
+	margin-left: 10px;	
+	font-size: 24px;
+	padding: 10px 5px;
+	outline: none;
+}
+
+input{
+	height: 48px;
+}
+
+textarea{
+	/*height: 150px;*/
+	resize: none;
+}
+
+input:not([type=file]):not([type=checkbox]):not([type=radio]), textarea, select{
+	border: 2px solid black;
+	width: 350px;
+}
+
+input[type=checkbox], input[type=radio]{
+	float: left;
+	margin-right: 100px;
+	height: 48px;
+	width: 48px;
+	/*transform: scale(2);*/
+
+}
+
+input:focus, textarea:focus{
+	border-color: #f1c40f !important;
+}
+
+input:invalid{
+	background: rgba(231, 76, 60,.1);
+}
+
+input[type=image]{
+	border: none !important;
+	width: auto !important;
+	height: 100px !important;
+	padding: 0 !important;
+}
+
+.btn:not([type=image]){
+	width: 220px !important;
+	height: 50px;
+	margin-bottom: 20px;
+}
+
+.btn:not([type=image]):hover{
+	background: #f1c40f;
+	border-color: black !important;
+}
+
+.btn:not([type=image]):active{
+	background: #34495e !important;
+	color: #bdc3c7 !important;
+	border-color: black !important;
+}
+
+button{
+	font-size: 24px;
+}
+
+button[type=button].btn{
+	width: 300px !important;
+}
+
+button[type=button] img{
+	height: 50%;
+	vertical-align: middle;
+}
+
+label{
+	float: left;
+	font-size: 24px;
+	line-height: 48px;
+	width: 200px;
+	color: #34495e;
+}
+
+.subLbl{
+	font-size: 16px;
+	width: 50px;
+}
+
+/*Colors*/
+/*
+	translucent red --> rgba(231,76,60 ,.3)
+	midnight blue --> #2c3e50
+	silver  --> #bdc3c7
+	sunflower --> #f1c40f
+	emerland --> #2ecc71
+	wisteria --> #8e44ad
+	wetasphalt --> #34495e
+*/
